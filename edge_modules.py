@@ -18,8 +18,8 @@ import os
 
 class EdgeAnalyzer:
     def __init__(self):
-        self.endPoint = '[CLOUD URL]'
-        self.apiKey = '[API KEY]'
+        self.endPoint = 'http://172.21.188.162:80/image'
+        self.apiKey = '8b47093c924d4e93b2e28adbb9e5eca0'
         
     def analyzeImage(self, filePath) -> int:
         start_time = time.time()
